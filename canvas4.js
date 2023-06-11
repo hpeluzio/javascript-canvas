@@ -25,7 +25,6 @@ window.addEventListener("resize", (event) => {
 window.addEventListener("mousemove", (event) => {
   mouse.x = event.x;
   mouse.y = event.y;
-  console.log("mouse", mouse);
 });
 
 function Circle(x, y, dx, dy, radius) {
